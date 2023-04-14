@@ -7,4 +7,4 @@ cd ../user_service
 go build -ldflags="-w -s" -buildmode=pie -o ../output/user_service
 cd ..
 cp script/* output/
-cp conf/server.conf output/server.conf
+cp server.conf output/server.conf
